@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Samimie</string>
+	<string>Samimi</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -48,8 +48,12 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAppleMusicUsageDescription </key>
+	<key>NSAppleMusicUsageDescription</key>
 	<string>app music</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>app bluetooth</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>app bluetooth</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>calendar</string>
 	<key>NSCameraUsageDescription</key>
@@ -64,7 +68,7 @@
 	<string>motion</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>User can upload and change her profile picture from PhotoLibrary</string>
-	<key>NSSpeechRecognitionUsageDescription </key>
+	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>speech recognition</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
