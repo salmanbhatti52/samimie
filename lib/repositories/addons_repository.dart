@@ -1,5 +1,5 @@
-import 'package:active_ecommerce_flutter/app_config.dart';
-import 'package:active_ecommerce_flutter/data_model/addons_response.dart';
+import 'package:Samimi/app_config.dart';
+import 'package:Samimi/data_model/addons_response.dart';
 import 'package:http/http.dart' as http;
 
 class AddonsRepository{

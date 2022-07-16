@@ -1,19 +1,16 @@
-import 'package:active_ecommerce_flutter/screens/change_language.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-
-import 'package:active_ecommerce_flutter/screens/main.dart';
-import 'package:active_ecommerce_flutter/screens/profile.dart';
-import 'package:active_ecommerce_flutter/screens/order_list.dart';
-import 'package:active_ecommerce_flutter/screens/wishlist.dart';
-
-import 'package:active_ecommerce_flutter/screens/login.dart';
-import 'package:active_ecommerce_flutter/screens/messenger_list.dart';
-import 'package:active_ecommerce_flutter/screens/wallet.dart';
-import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
-import 'package:active_ecommerce_flutter/app_config.dart';
-import 'package:active_ecommerce_flutter/helpers/auth_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../helpers/auth_helper.dart';
+import '../helpers/shared_value_helper.dart';
+import '../screens/change_language.dart';
+import '../screens/login.dart';
+import '../screens/main.dart';
+import '../screens/messenger_list.dart';
+import '../screens/order_list.dart';
+import '../screens/profile.dart';
+import '../screens/wallet.dart';
+import '../screens/wishlist.dart';
 
 class MainDrawer extends StatefulWidget {
   const MainDrawer({
@@ -40,7 +37,7 @@ class _MainDrawerState extends State<MainDrawer> {
     // }
     Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) {
       return Main();
-    }),(route)=>false);
+    }), (route) => false);
   }
 
   @override
@@ -58,7 +55,7 @@ class _MainDrawerState extends State<MainDrawer> {
                     ? ListTile(
                         leading: CircleAvatar(
                           backgroundImage: NetworkImage(
-                             "${avatar_original.$}",
+                            "${avatar_original.$}",
                           ),
                         ),
                         title: Text("${user_name.$}"),

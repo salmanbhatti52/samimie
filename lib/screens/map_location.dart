@@ -7,16 +7,16 @@
 
 import 'dart:async';
 
-import 'package:active_ecommerce_flutter/other_config.dart';
+import 'package:Samimi/other_config.dart';
 import 'package:flutter/material.dart';
 
 import 'package:google_maps_place_picker_mb/google_maps_place_picker.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'dart:io' show Platform;
-import 'package:active_ecommerce_flutter/my_theme.dart';
+import 'package:Samimi/my_theme.dart';
 import 'package:toast/toast.dart';
-import 'package:active_ecommerce_flutter/custom/toast_component.dart';
-import 'package:active_ecommerce_flutter/repositories/address_repository.dart';
+import 'package:Samimi/custom/toast_component.dart';
+import 'package:Samimi/repositories/address_repository.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 

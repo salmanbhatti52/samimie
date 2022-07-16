@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:active_ecommerce_flutter/my_theme.dart';
-import 'package:active_ecommerce_flutter/ui_sections/drawer.dart';
-import 'package:active_ecommerce_flutter/custom/toast_component.dart';
+import 'package:Samimi/my_theme.dart';
+import 'package:Samimi/ui_sections/drawer.dart';
+import 'package:Samimi/custom/toast_component.dart';
 import 'package:toast/toast.dart';
-import 'package:active_ecommerce_flutter/screens/category_products.dart';
-import 'package:active_ecommerce_flutter/repositories/category_repository.dart';
+import 'package:Samimi/screens/category_products.dart';
+import 'package:Samimi/repositories/category_repository.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:active_ecommerce_flutter/app_config.dart';
-import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:Samimi/app_config.dart';
+import 'package:Samimi/helpers/shared_value_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class CategoryList extends StatefulWidget {

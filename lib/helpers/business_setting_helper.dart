@@ -1,9 +1,9 @@
-import 'package:active_ecommerce_flutter/data_model/business_setting_response.dart';
-import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
-import 'package:active_ecommerce_flutter/repositories/business_setting_repository.dart';
-import 'package:active_ecommerce_flutter/providers/locale_provider.dart';
+import 'package:Samimi/helpers/shared_value_helper.dart';
 import 'package:one_context/one_context.dart';
 import 'package:provider/provider.dart';
+
+import '../data_model/business_setting_response.dart';
+import '../repositories/business_setting_repository.dart';
 
 class BusinessSettingHelper {
   setBusinessSettingData() async {

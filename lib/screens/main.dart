@@ -1,18 +1,18 @@
 import 'dart:io';
 
-import 'package:active_ecommerce_flutter/custom/CommonFunctoins.dart';
-import 'package:active_ecommerce_flutter/my_theme.dart';
-import 'package:active_ecommerce_flutter/screens/cart.dart';
-import 'package:active_ecommerce_flutter/screens/category_list.dart';
-import 'package:active_ecommerce_flutter/screens/home.dart';
-import 'package:active_ecommerce_flutter/screens/login.dart';
-import 'package:active_ecommerce_flutter/screens/profile.dart';
-import 'package:active_ecommerce_flutter/screens/filter.dart';
+import 'package:Samimi/custom/CommonFunctoins.dart';
+import 'package:Samimi/my_theme.dart';
+import 'package:Samimi/screens/cart.dart';
+import 'package:Samimi/screens/category_list.dart';
+import 'package:Samimi/screens/home.dart';
+import 'package:Samimi/screens/login.dart';
+import 'package:Samimi/screens/profile.dart';
+import 'package:Samimi/screens/filter.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:flutter/services.dart';
-import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:Samimi/helpers/shared_value_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Main extends StatefulWidget {

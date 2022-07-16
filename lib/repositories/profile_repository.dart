@@ -1,14 +1,14 @@
-import 'package:active_ecommerce_flutter/app_config.dart';
-import 'package:active_ecommerce_flutter/data_model/profile_image_update_response.dart';
+import 'package:Samimi/app_config.dart';
+import 'package:Samimi/data_model/profile_image_update_response.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:active_ecommerce_flutter/data_model/profile_counters_response.dart';
-import 'package:active_ecommerce_flutter/data_model/profile_update_response.dart';
-import 'package:active_ecommerce_flutter/data_model/device_token_update_response.dart';
-import 'package:active_ecommerce_flutter/data_model/phone_email_availability_response.dart';
+import 'package:Samimi/data_model/profile_counters_response.dart';
+import 'package:Samimi/data_model/profile_update_response.dart';
+import 'package:Samimi/data_model/device_token_update_response.dart';
+import 'package:Samimi/data_model/phone_email_availability_response.dart';
 
-import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:Samimi/helpers/shared_value_helper.dart';
 import 'package:flutter/foundation.dart';
 
 class ProfileRepository {

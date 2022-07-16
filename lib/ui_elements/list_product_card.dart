@@ -1,7 +1,7 @@
-import 'package:active_ecommerce_flutter/my_theme.dart';
+import 'package:Samimi/my_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:active_ecommerce_flutter/screens/product_details.dart';
-import 'package:active_ecommerce_flutter/app_config.dart';
+import 'package:Samimi/screens/product_details.dart';
+import 'package:Samimi/app_config.dart';
 
 class ListProductCard extends StatefulWidget {
   int id;
