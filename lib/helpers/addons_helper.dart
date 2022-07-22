@@ -1,15 +1,13 @@
-import 'package:Samimi/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/data_model/addons_response.dart';
+import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/repositories/addons_repository.dart';
 
-import '../data_model/addons_response.dart';
-import '../repositories/addons_repository.dart';
-
-class AddonsHelper {
-  setAddonsData() async {
-    List<AddonsListResponse> addonsList =
-        await AddonsRepository().getAddonsListResponse();
+class AddonsHelper{
+  setAddonsData()async{
+    List<AddonsListResponse> addonsList = await AddonsRepository().getAddonsListResponse();
 
     addonsList.forEach((element) {
-      switch (element.uniqueIdentifier) {
+      switch(element.uniqueIdentifier){
         case 'club_point':
           {
             if (element.activated.toString() == "1") {
@@ -37,8 +35,8 @@ class AddonsHelper {
             }
           }
           break;
-        default:
-          {}
+        default:{
+        }
           break;
       }
     });

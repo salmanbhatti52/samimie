@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Samimi</string>
+	<string>Samimie</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -49,19 +49,19 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>app music</string>
+	<string>Apple music required for digital products.</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>app bluetooth</string>
+	<string>Share products over bluetooth.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>app bluetooth</string>
+	<string>Share products over bluetooth.</string>
 	<key>NSCalendarsUsageDescription</key>
-	<string>calendar</string>
+	<string>Add calender for the wishlist events</string>
 	<key>NSCameraUsageDescription</key>
-	<string>User can upload and change her profile picture from Camera</string>
+	<string>User can upload and change her profile picture from Camera for profile settings.</string>
 	<key>NSContactsUsageDescription</key>
-	<string>contacts</string>
+	<string>Share products to your contacts</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>location always</string>
+	<string>Filter products on location always</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>location when in use</string>
 	<key>NSMotionUsageDescription</key>

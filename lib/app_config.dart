@@ -6,7 +6,7 @@ class AppConfig {
   static String copyright_text =
       "@ Samimie " + this_year; //this shows in the splash screen
   static String app_name =
-      "Samimie eCommerce"; //this shows in the splash screen
+      "Samimie Shop"; //this shows in the splash screen
   static String purchase_code =
       "0678906b-c654-4513-b9f9-48c55d365e15"; //enter your purchase code for the app from codecanyon
 

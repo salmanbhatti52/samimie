@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../my_theme.dart';
+import 'package:active_ecommerce_flutter/my_theme.dart';
 
 class InputDecorations {
   static InputDecoration buildInputDecoration_1({hint_text = ""}) {

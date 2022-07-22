@@ -1,20 +1,20 @@
-import 'package:Samimi/repositories/offline_wallet_recharge_repository.dart';
-import 'package:Samimi/screens/main.dart';
-import 'package:Samimi/screens/wallet.dart';
+import 'package:active_ecommerce_flutter/repositories/offline_wallet_recharge_repository.dart';
+import 'package:active_ecommerce_flutter/screens/main.dart';
+import 'package:active_ecommerce_flutter/screens/wallet.dart';
 import 'package:flutter/material.dart';
-import 'package:Samimi/helpers/shared_value_helper.dart';
-import 'package:Samimi/custom/toast_component.dart';
+import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/custom/toast_component.dart';
 import 'package:toast/toast.dart';
-import 'package:Samimi/custom/input_decorations.dart';
+import 'package:active_ecommerce_flutter/custom/input_decorations.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:Samimi/repositories/file_repository.dart';
-import 'package:Samimi/repositories/offline_payment_repository.dart';
-import 'package:Samimi/my_theme.dart';
+import 'package:active_ecommerce_flutter/repositories/file_repository.dart';
+import 'package:active_ecommerce_flutter/repositories/offline_payment_repository.dart';
+import 'package:active_ecommerce_flutter/my_theme.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:Samimi/screens/order_details.dart';
-import 'package:Samimi/helpers/file_helper.dart';
+import 'package:active_ecommerce_flutter/screens/order_details.dart';
+import 'package:active_ecommerce_flutter/helpers/file_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class OfflineScreen extends StatefulWidget {

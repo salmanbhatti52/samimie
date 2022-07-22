@@ -1,17 +1,17 @@
-import 'package:Samimi/screens/checkout.dart';
+import 'package:active_ecommerce_flutter/screens/checkout.dart';
 import 'package:flutter/material.dart';
-import 'package:Samimi/my_theme.dart';
+import 'package:active_ecommerce_flutter/my_theme.dart';
 import 'dart:ui';
 import 'package:flutter/painting.dart';
 import 'package:flutter/services.dart';
-import 'package:Samimi/helpers/reg_ex_inpur_formatter.dart';
-import 'package:Samimi/repositories/wallet_repository.dart';
-import 'package:Samimi/helpers/shimmer_helper.dart';
-import 'package:Samimi/custom/toast_component.dart';
+import 'package:active_ecommerce_flutter/helpers/reg_ex_inpur_formatter.dart';
+import 'package:active_ecommerce_flutter/repositories/wallet_repository.dart';
+import 'package:active_ecommerce_flutter/helpers/shimmer_helper.dart';
+import 'package:active_ecommerce_flutter/custom/toast_component.dart';
 import 'package:toast/toast.dart';
-import 'package:Samimi/screens/recharge_wallet.dart';
-import 'package:Samimi/screens/main.dart';
-import 'package:Samimi/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/screens/recharge_wallet.dart';
+import 'package:active_ecommerce_flutter/screens/main.dart';
+import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 

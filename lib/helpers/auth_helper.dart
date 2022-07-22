@@ -1,6 +1,5 @@
-import 'package:Samimi/helpers/shared_value_helper.dart';
-
-import '../repositories/auth_repository.dart';
+import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/repositories/auth_repository.dart';
 
 class AuthHelper {
   setUserData(loginResponse) {
@@ -23,21 +22,22 @@ class AuthHelper {
   }
 
   clearUserData() {
-    is_logged_in.$ = false;
-    is_logged_in.save();
-    access_token.$ = "";
-    access_token.save();
-    user_id.$ = 0;
-    user_id.save();
-    user_name.$ = "";
-    user_name.save();
-    user_email.$ = "";
-    user_email.save();
-    user_phone.$ = "";
-    user_phone.save();
-    avatar_original.$ = "";
-    avatar_original.save();
+      is_logged_in.$ = false;
+      is_logged_in.save();
+      access_token.$ = "";
+      access_token.save();
+      user_id.$ = 0;
+      user_id.save();
+      user_name.$ = "";
+      user_name.save();
+      user_email.$ = "";
+      user_email.save();
+      user_phone.$ = "";
+      user_phone.save();
+      avatar_original.$ = "";
+      avatar_original.save();
   }
+
 
   fetch_and_set() async {
     var userByTokenResponse = await AuthRepository().getUserByTokenResponse();
@@ -55,7 +55,7 @@ class AuthHelper {
       user_phone.save();
       avatar_original.$ = userByTokenResponse.avatar_original;
       avatar_original.save();
-    } else {
+    }else{
       is_logged_in.$ = false;
       is_logged_in.save();
       user_id.$ = 0;

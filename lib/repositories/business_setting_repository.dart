@@ -1,5 +1,5 @@
-import 'package:Samimi/app_config.dart';
-import 'package:Samimi/data_model/business_setting_response.dart';
+import 'package:active_ecommerce_flutter/app_config.dart';
+import 'package:active_ecommerce_flutter/data_model/business_setting_response.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

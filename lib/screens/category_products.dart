@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Samimi/my_theme.dart';
-import 'package:Samimi/ui_elements/product_card.dart';
-import 'package:Samimi/repositories/product_repository.dart';
-import 'package:Samimi/helpers/shimmer_helper.dart';
+import 'package:active_ecommerce_flutter/my_theme.dart';
+import 'package:active_ecommerce_flutter/ui_elements/product_card.dart';
+import 'package:active_ecommerce_flutter/repositories/product_repository.dart';
+import 'package:active_ecommerce_flutter/helpers/shimmer_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class CategoryProducts extends StatefulWidget {

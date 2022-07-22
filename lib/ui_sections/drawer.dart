@@ -1,16 +1,20 @@
+import 'package:active_ecommerce_flutter/screens/change_language.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+
+import 'package:active_ecommerce_flutter/screens/main.dart';
+import 'package:active_ecommerce_flutter/screens/profile.dart';
+import 'package:active_ecommerce_flutter/screens/order_list.dart';
+import 'package:active_ecommerce_flutter/screens/wishlist.dart';
+
+import 'package:active_ecommerce_flutter/screens/login.dart';
+import 'package:active_ecommerce_flutter/screens/messenger_list.dart';
+import 'package:active_ecommerce_flutter/screens/wallet.dart';
+import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/app_config.dart';
+import 'package:active_ecommerce_flutter/helpers/auth_helper.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import '../helpers/auth_helper.dart';
-import '../helpers/shared_value_helper.dart';
-import '../screens/change_language.dart';
-import '../screens/login.dart';
-import '../screens/main.dart';
-import '../screens/messenger_list.dart';
-import '../screens/order_list.dart';
-import '../screens/profile.dart';
-import '../screens/wallet.dart';
-import '../screens/wishlist.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MainDrawer extends StatefulWidget {
   const MainDrawer({
@@ -201,6 +205,67 @@ class _MainDrawerState extends State<MainDrawer> {
                         ],
                       )
                     : Container(),
+                Divider(height: 24),
+                ListTile(
+                    visualDensity: VisualDensity(horizontal: -4, vertical: -4),
+                    leading: Image.asset("assets/privacy.png",
+                        height: 16, color: Color.fromRGBO(153, 153, 153, 1)),
+                    title: Text('Privacy Policy',
+                        style: TextStyle(
+                            color: Color.fromRGBO(153, 153, 153, 1),
+                            fontSize: 14)),
+                    onTap: () async {
+                      const url = "https://samimie.com/privacy-policy";
+                      final Uri _url = Uri.parse(url);
+
+                      await launchUrl(_url,
+                          mode: LaunchMode.externalApplication);
+                    }),
+                ListTile(
+                    visualDensity: VisualDensity(horizontal: -4, vertical: -4),
+                    leading: Image.asset("assets/hamburger.png",
+                        height: 16, color: Color.fromRGBO(153, 153, 153, 1)),
+                    title: Text('Terms and Conditions',
+                        style: TextStyle(
+                            color: Color.fromRGBO(153, 153, 153, 1),
+                            fontSize: 14)),
+                    onTap: () async {
+                      const url = "http://www.samimi.com/terms";
+                      final Uri _url = Uri.parse(url);
+
+                      await launchUrl(_url,
+                          mode: LaunchMode.externalApplication);
+                    }),
+                ListTile(
+                    visualDensity: VisualDensity(horizontal: -4, vertical: -4),
+                    leading: Image.asset("assets/minus.png",
+                        height: 16, color: Color.fromRGBO(153, 153, 153, 1)),
+                    title: Text('Delete Account',
+                        style: TextStyle(
+                            color: Color.fromRGBO(153, 153, 153, 1),
+                            fontSize: 14)),
+                    onTap: () async {
+                      const url = "http://www.samimie.com/delet-account";
+                      final Uri _url = Uri.parse(url);
+
+                      await launchUrl(_url,
+                          mode: LaunchMode.externalApplication);
+                    }),
+                ListTile(
+                    visualDensity: VisualDensity(horizontal: -4, vertical: -4),
+                    leading: Image.asset("assets/cart.png",
+                        height: 16, color: Color.fromRGBO(153, 153, 153, 1)),
+                    title: Text('Shipping Policy',
+                        style: TextStyle(
+                            color: Color.fromRGBO(153, 153, 153, 1),
+                            fontSize: 14)),
+                    onTap: () async {
+                      const url = "http://www.samimie.com/shipping-policy";
+                      final Uri _url = Uri.parse(url);
+
+                      await launchUrl(_url,
+                          mode: LaunchMode.externalApplication);
+                    }),
                 Divider(height: 24),
                 is_logged_in.$ == false
                     ? ListTile(

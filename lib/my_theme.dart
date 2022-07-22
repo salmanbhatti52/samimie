@@ -17,7 +17,7 @@ class MyTheme {
   static Color grey_153 = Color.fromRGBO(153, 153, 153, 1);
   static Color font_grey = Color.fromRGBO(73, 73, 73, 1);
   static Color textfield_grey = Color.fromRGBO(209, 209, 209, 1);
-  static Color golden = Color.fromRGBO(248, 181, 91, 1);
+  static Color golden = Color.fromRGBO(132, 132, 132, 1);
   static Color shimmer_base = Colors.grey.shade50;
   static Color shimmer_highlighted = Colors.grey.shade200;
 

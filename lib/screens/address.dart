@@ -1,17 +1,17 @@
 
 import 'package:flutter/material.dart';
-import 'package:Samimi/my_theme.dart';
+import 'package:active_ecommerce_flutter/my_theme.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:Samimi/helpers/shared_value_helper.dart';
-import 'package:Samimi/repositories/address_repository.dart';
-import 'package:Samimi/helpers/shimmer_helper.dart';
-import 'package:Samimi/data_model/city_response.dart';
-import 'package:Samimi/data_model/state_response.dart';
-import 'package:Samimi/data_model/country_response.dart';
-import 'package:Samimi/custom/toast_component.dart';
+import 'package:active_ecommerce_flutter/helpers/shared_value_helper.dart';
+import 'package:active_ecommerce_flutter/repositories/address_repository.dart';
+import 'package:active_ecommerce_flutter/helpers/shimmer_helper.dart';
+import 'package:active_ecommerce_flutter/data_model/city_response.dart';
+import 'package:active_ecommerce_flutter/data_model/state_response.dart';
+import 'package:active_ecommerce_flutter/data_model/country_response.dart';
+import 'package:active_ecommerce_flutter/custom/toast_component.dart';
 import 'package:toast/toast.dart';
-import 'package:Samimi/other_config.dart';
-import 'package:Samimi/screens/map_location.dart';
+import 'package:active_ecommerce_flutter/other_config.dart';
+import 'package:active_ecommerce_flutter/screens/map_location.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 
