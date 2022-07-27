@@ -215,7 +215,7 @@ class _MainDrawerState extends State<MainDrawer> {
                             color: Color.fromRGBO(153, 153, 153, 1),
                             fontSize: 14)),
                     onTap: () async {
-                      const url = "https://samimie.com/privacy-policy";
+                      const url = "${AppConfig.BASE_URL}/privacy-policy";
                       final Uri _url = Uri.parse(url);
 
                       await launchUrl(_url,
@@ -230,7 +230,7 @@ class _MainDrawerState extends State<MainDrawer> {
                             color: Color.fromRGBO(153, 153, 153, 1),
                             fontSize: 14)),
                     onTap: () async {
-                      const url = "http://www.samimi.com/terms";
+                      const url = "${AppConfig.BASE_URL}/terms";
                       final Uri _url = Uri.parse(url);
 
                       await launchUrl(_url,
@@ -245,7 +245,8 @@ class _MainDrawerState extends State<MainDrawer> {
                             color: Color.fromRGBO(153, 153, 153, 1),
                             fontSize: 14)),
                     onTap: () async {
-                      const url = "http://www.samimie.com/delet-account";
+                      var url =
+                          "${AppConfig.BASE_URL}/delete-account?email=${user_email.$}";
                       final Uri _url = Uri.parse(url);
 
                       await launchUrl(_url,
@@ -260,7 +261,7 @@ class _MainDrawerState extends State<MainDrawer> {
                             color: Color.fromRGBO(153, 153, 153, 1),
                             fontSize: 14)),
                     onTap: () async {
-                      const url = "http://www.samimie.com/shipping-policy";
+                      const url = "${AppConfig.BASE_URL}/shipping-policy";
                       final Uri _url = Uri.parse(url);
 
                       await launchUrl(_url,
